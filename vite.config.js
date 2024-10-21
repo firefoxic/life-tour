@@ -1,3 +1,5 @@
+import { env } from 'node:process';
+
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 import VitePluginSvgSpritemap from '@spiriit/vite-plugin-svg-spritemap';
 // import { ViteMinifyPlugin } from 'vite-plugin-minify';
@@ -66,7 +68,7 @@ export default {
   build: {
     outDir: '../dist',
   },
-  base: '/life-tour/',
+  base: !env.CI ? '/' : `/${env.REPO_NAME}/`,
   server: {
     port: 3000,
   }
