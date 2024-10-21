@@ -17,13 +17,13 @@
   flex-grow: 1;
 
   @media (min-width: $tablet-width) {
-    background-image: url("../../img/clouds/clouds-1-tablet.png");
+    background-image: url("/img/clouds/clouds-1-tablet.png");
     background-repeat: no-repeat;
     background-position: 100% 967px;
   }
 
   @media (min-width: $desktop-width) {
-    background-image: url("../../img/clouds/clouds-1-desktop.png");
+    background-image: url("/img/clouds/clouds-1-desktop.png");
     background-repeat: no-repeat;
     background-position: 100% 674px;
   }

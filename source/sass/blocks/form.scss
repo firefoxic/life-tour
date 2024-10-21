@@ -1,28 +1,28 @@
 .form {
   padding: 177px 31px 174px;
-  background-image: url("../../img/contact/contact-mobile.jpg");
+  background-image: url("/img/contact/contact-mobile.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 
   @media (resolution >= 2dppx) {
-    background-image: url("../../img/contact/contact-mobile@2x.jpg");
+    background-image: url("/img/contact/contact-mobile@2x.jpg");
   }
 
   @media (min-width: $tablet-width) {
     padding: 187.5px 204px 184px;
-    background-image: url("../../img/contact/contact-tablet.jpg");
+    background-image: url("/img/contact/contact-tablet.jpg");
 
     @media (resolution >= 2dppx) {
-      background-image: url("../../img/contact/contact-tablet@2x.jpg");
+      background-image: url("/img/contact/contact-tablet@2x.jpg");
     }
   }
 
   @media (min-width: $desktop-width) {
     padding: 303px 240px 293px;
-    background-image: url("../../img/contact/contact-desktop.jpg");
+    background-image: url("/img/contact/contact-desktop.jpg");
 
     @media (resolution >= 2dppx) {
-      background-image: url("../../img/contact/contact-desktop@2x.jpg");
+      background-image: url("/img/contact/contact-desktop@2x.jpg");
     }
   }
 }
